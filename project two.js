@@ -1,7 +1,15 @@
 alert('Hello. Welcome to my web page.😎 ✌️');
-let surName= prompt("What is your surname name? 👇 ⬇️");
-let lastName = prompt("and your last name? 👇 ⬇️");
-alert(`${surName} ${lastName}. Welcome to my webpage and hope you enjoy it 👊 🤙.`);
+let usersAge = prompt('How old are you ?');
+if(usersAge % 2 === 0){
+    alert('Your age is Even');
+} 
+else if(usersAge % 2 === 1){
+    alert('Your age is Odd');
+}
+else{
+    alert('Your age is niether Even nor Odd');
+}
+
 
 
 
